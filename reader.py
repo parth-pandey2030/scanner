@@ -10,6 +10,4 @@ import os
 file = open('main.txt', 'w')
 
 # Write file
-file.write(os.system('airport -s'))
-
-
+file.write(str(os.system('airport -s')))
